@@ -117,6 +117,10 @@ function checkForTie(board){
     return board.every(cell => cell !== '')
 }
 
+const restartButton = document.querySelector('#restart-btn');
+restartButton.addEventListener('click', () => {
+    Game.restart();
+})
 
 const startButton = document.querySelector('#start-btn');
 startButton.addEventListener('click', () => {
