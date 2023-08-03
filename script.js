@@ -41,8 +41,31 @@ const Game = (() => {
         Gameboard.render();
     }
 
+    const handleClick = (event) => {
+        if(gameOver){
+            return;
+        }
+        let index = parseInt(event.target.id.split('-')[1]);
+        if(Gameboard.getGameboard()[index] !=='')
+            return;
+
+        Gameboard.update(index, players[currentPlayerIndex].mark)
+
+        if(checkForWin(Gameboard.getGameboard(), players[currentPlayerIndex].mark)){
+            gameOver = true;
+            displayController.renderMessage(`${players[currentPlayerIndex].name} Won!`)
+        } else if(checkForTie(Gameboard.getGameboard())){
+            gameOver = true;
+            displayController.renderMessage(` it's a tie!`)
+        }
+
+        currentPlayerIndex =currentPlayerIndex === 0? 1: 0;
+
+    }
+
     return {
         start,
+        handleClick,
     }
 })();
 
