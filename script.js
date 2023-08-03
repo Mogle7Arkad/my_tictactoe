@@ -14,8 +14,14 @@ const Gameboard = (() => {
         })
     }
 
+    const update = (index, value) => {
+        gameboard[index] = value;
+        render();
+    }
+
         return{
             render,
+            update,
         }
 
 })();
