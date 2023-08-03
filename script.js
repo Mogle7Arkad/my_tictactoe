@@ -28,9 +28,12 @@ const Gameboard = (() => {
         render();
     }
 
+    const getGameboard = () => gameboard;
+
         return{
             render,
             update,
+            getGameboard
         }
 
 })();
