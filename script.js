@@ -1,3 +1,12 @@
+const displayController = (() => {
+    const renderMessage = (message) => {
+        document.querySelector('#message').innerHTML = message;
+    }
+    return{
+        renderMessage,
+    }
+})();
+
 const Gameboard = (() => {
     let gameboard = ['', '', '', '', '', '', '', '', '']
 
