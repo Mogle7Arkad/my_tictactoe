@@ -14,6 +14,9 @@ const Gameboard = (() => {
         })
     }
 
+        return{
+            render,
+        }
 
 })();
 const createPlayer = (name, mark) => {
@@ -22,6 +25,14 @@ const createPlayer = (name, mark) => {
         mark
     }
 }
+
+const Game = (() => {
+    let players =[];
+    let currentPlayerIndex ;
+    let gameOver;
+
+
+})();
 
 
 const startButton = document.querySelector('#start-btn');
