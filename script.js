@@ -66,7 +66,6 @@ const Game = (() => {
         let index = parseInt(event.target.id.split('-')[1]);
         if(Gameboard.getGameboard()[index] !=='')
             return;
-
         Gameboard.update(index, players[currentPlayerIndex].mark)
 
         if(checkForWin(Gameboard.getGameboard(), players[currentPlayerIndex].mark)){
@@ -76,9 +75,7 @@ const Game = (() => {
             gameOver = true;
             displayController.renderMessage(` it's a tie!`)
         }
-
-        currentPlayerIndex =currentPlayerIndex === 0? 1: 0;
-
+        currentPlayerIndex = currentPlayerIndex === 0 ? 1: 0;
     }
 
     const restart = () => {
