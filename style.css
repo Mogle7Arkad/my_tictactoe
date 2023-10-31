@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background: linear-gradient(135deg, #5b548a, #00feba, #5b548a);
+}
+
 #gameboard{
     display: grid;
     height: 400px;
@@ -12,32 +16,43 @@
     grid-template-rows: 1fr 1fr 1fr;
     margin: 32px 0;
     margin-left: 35%;
+    background: linear-gradient(135deg, #5b54, #5b548a);
 }
+
 #header{
+    margin-top: 10px;
     text-align: center;
 }
+
 .square{
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    border: 1px solid black;
+    margin: auto;
+    border: 4px solid rgb(214, 115, 115);
     justify-content: center;
     font-size: 80px;
     text-align: center;
     background-color: white;
     height: 130px;
     width: 130px;
+    background: linear-gradient(135deg, #5b548a, #00feba);
 }
-#controls{
 
+#controls{
     padding-bottom: 10px;
     gap: 5px;
     text-align: center;
 }
+
 input, button{
-    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #291e70;
+    padding: 10px;
     border-radius: 5px;
+    background: linear-gradient(135deg, #5b548a, #00feba, #5b548a);
 }
+
 #message{
     text-align: center;
     font-size: 24px;
+    font-weight: bolder;
 }
