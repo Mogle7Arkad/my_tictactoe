@@ -18,7 +18,7 @@ The below image shows the app in its active state displaying the "3 X 3" squares
 The below image shows the app in its active state as the game is been played as seen on the first image while the second image shows a game that is won with a message declaring the winner.
 ![](./screenshots/active2.png)
 
-[](./screenshots/active3.png)
+![](./screenshots/active3.png)
 
 ## Getting Started
 
