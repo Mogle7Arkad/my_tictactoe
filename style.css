@@ -51,6 +51,9 @@ input, button{
     background: linear-gradient(135deg, #5b548a, #00feba, #5b548a);
 }
 
+input{
+    background: linear-gradient(135deg, #50e6bb, #c3bcf0);
+}
 #message{
     text-align: center;
     font-size: 24px;
