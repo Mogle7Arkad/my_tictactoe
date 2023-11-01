@@ -1,5 +1,5 @@
 # Tic-tac-toe
-A tic-tac-toe game to demonstrate the usage of js module patterns and IIFEs.This simple game takes two players to play. As with tic-tac-toe game, a player wins when a player align same  sign of either "X" or "O" vertically, horizontally or diagonally. More features may be considered to be implemented in the future. Features like ability to play with a computer, different levels of difficulty, and also ability to choose number of cells of either "3 X 3" or "4 X 4".
+A tic-tac-toe game to demonstrate the usage of js module patterns and IIFEs.This simple game takes two players to play. As with tic-tac-toe game, a player wins when a player align same  sign of either "X" or "O" vertically, horizontally or diagonally. More features may be considered to be implemented in the future. Features like ability to play with a computer, different levels of difficulty, and also ability to choose number of cells of either "3 X 3" or "4 X 4" cells.
 
 ## Features
 This app features a "3 x 3" tictactoe game to be played by two persons. It allows players input their names into the two input fields and play the game. A restart button is also available to be able to start the game afresh at any point.
