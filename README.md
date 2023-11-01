@@ -33,7 +33,7 @@ The below image shows the app in its active state as the game is been played as 
 
 ## Usage
 
-1. Upon opening the app, you will be presented with two input fields, a start button and a restart button.
+1. Upon opening the app, you will be presented with a screen, two input fields, a start button and a restart button.
 
 2. On inputing player names in the fields, click the start button and the cells will be displayed on the screen.
 
